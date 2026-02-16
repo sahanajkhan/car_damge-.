@@ -1,0 +1,66 @@
+# Model files (LARGE - DO NOT COMMIT)
+models/
+*.pth
+*.h5
+*.pkl
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+checkpoints/
+checkpoint_*.pth
+classifier_*.pth
+damage_*.pth
+
+# Dataset (LARGE - DO NOT COMMIT)
+Car-Damage-Detection-data/
+dataset/
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.venv/
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+dist/
+build/
+*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+*.env
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Cache
+.cache/
+*.cache
